@@ -1,6 +1,6 @@
 {
-    "name": "Eigram",
-    "short_name": "Eigram",
+    "name": "School Dismissal Manager",
+    "short_name": "SDM",
     "icons": [{
         "src": "images/hello-icon-128.png",
         "sizes": "128x128",
