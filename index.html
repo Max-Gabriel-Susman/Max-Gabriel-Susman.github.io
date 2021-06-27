@@ -20,6 +20,21 @@
     <h1 class="title">School Dismissal Manager</h1>
     <a href="https://walletpassbucket.s3.us-east-2.amazonaws.com/SDM.pkpass">Download the app!</a>
   </div>
-    <script src="js/main.js"></script>
+    <!-- script src="js/main.js"></script -->
+    <form>
+      <input class="target" type="text" value="Field 1">
+      <select class="target">
+        <option value="option1" selected="selected">Option 1</option>
+        <option value="option2">Option 2</option>
+      </select>
+    </form>
+    <div id="other">
+      Trigger the handler
+    </div>
 </body>
+<script>
+  $( ".target" ).change(function() {
+    alert( "Handler for .change() called." );
+  });
+</script>
 </html>
